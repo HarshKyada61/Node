@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+  <div class="main-content">
+      {{>headers}}
+      <p>Use this siste to get your weather!</p>
+      <form>
+         <input placeholder="Location">
+        <button>Submit</button>
+      </form>
+     <p id="message-1"></p>
+     <p id="message-2"></p>
+  </div>
+    
+  
+    {{>footers}}
+        <script src="./js/clientsideJS.js"></script>
+  </body>
+</html>
